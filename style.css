@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --text-color: #2b2b2b ;
+    --text-color-secondary: #6A6A6A;
+    --primary-color: #652bdf;
+    --secondary-color: #e4d8ff;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-nave{
+    display: flex;
+    flex-direction: row;
+    
+}
