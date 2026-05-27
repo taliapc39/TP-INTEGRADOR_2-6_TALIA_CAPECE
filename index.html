@@ -3,58 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nave</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/logo" href="./images/Favicon.svg">
 </head>
 <body>
     <header class="header-nave">
-        <nav>
-            <img src="./images/Logo Nave.jpg" alt="logo-Nave">
-            <ul>
-                <li>
-                    <a href="">Cobros</a>
-                </li>
-                <li>
-                    <a href="">Beneficios</a>
-                </li>
-                <li>
-                    <a href="">Espacio Nave</a>
-                </li>
-                <li>
-                    <a href="">Entrar a Nave</a>
-                </li>
-            </ul>
+        <nav class="header-nave_content">
+            <div class="header-nave_content_sections">
+                <img src="./images/Logo Nave.jpg" alt="logo-Nave">
+    <!--             <ul>
+                    <li>
+                        <a href="">Cobros</a>
+                    </li>
+                    <li>
+                        <a href="">Beneficios</a>
+                    </li>
+                    <li>
+                        <a href="">Espacio Nave</a>
+                    </li>
+                    <li>
+                        <a href="">Entrar a Nave</a>
+                    </li>
+                </ul> -->
+                <a href="" class="header-nave_text">
+                    Cobros
+                </a>
+                <a href="" class="header-nave_text">
+                    Beneficios
+                </a>
+            </div>
+            <div class="header-nave_content_sections">
+                <a href="" class="header-nave_text">
+                    Espacio Nave
+                </a>
+                <a href="" class="header-nave_text">
+                    Entrar a Nave
+                </a> <!-- Siento que sirve mas sin la lista (ul/li) por que ya aparecen en row, osea que hago menos css, pero nsoe si esta biene sta decision jej -->
+
+            </div>
         </nav>
     </header>
     <section class="cobros-qr">
         <div class="contenido-seccion">
-            <h1 class="titulo">Te damos la bienvenida al vuelo de tu negocio</h1>
+            <h2 class="titulo">Te damos la bienvenida al vuelo de tu negocio</h2>
             <div class="cobros-qr_caracteristicas">
                 <article class="cobros-qr_tarjeta">
                     <div class="cobro-qr_icono">
-                        <i class="bi bi-gift"></i>
+                        <i class="bi bi-cash-coin"></i>
                     </div>
                     <h2 class="subtitulo">Elegí cuando acreditar tus ventas</h2>
                     <p class="cobros-qr_parrafo">Lo hacés desde la plataforma Nave en pocos clicks.</p>
                 </article>
                 <article class="cobros-qr_tarjeta">
                     <div class="cobro-qr_icono">
-                        <i class="bi bi-currency-dollar"></i>
+                        <i class="bi bi-bar-chart"></i>
                     </div>
                     <h2 class="subtitulo">Ganás más con costos bajos</h2>
                     <p class="cobros-qr_parrafo">Los costos por cobros son bajos para que tu negocio crezca.</p>
                 </article>
                 <article class="cobros-qr_tarjeta">
                     <div class="cobro-qr_icono">
-                        <i class="bi bi-lock"></i>
+                        <i class="bi bi-currency-dollar"></i>
                     </div>
                     <h2 class="subtitulo">Vendés más con promos a tu medida</h2>
                     <p class="cobros-qr_parrafo">Ofrecé nuestras promos cuando pagan en tu negocio.</p>
                 </article>
             </div>
         </div>
-    </section>
-    <section>
         <div>
             <h2>Historias que vuelan</h2>
             <span>Conoce a los comercios que eligen Nave todos los dias 💜</span>
@@ -113,7 +129,6 @@
         <div>
             <span>Te puede interesar</span>
             <a href="">Galicia</a>
-
     </section>
 </footer>
 </html>
