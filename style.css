@@ -5,7 +5,7 @@
     --text-color: #2b2b2b ;
     --text-color-secondary: #6A6A6A;
     --primary-color: #652bdf;
-    --secondary-color: #e4d8ff;
+    --secondary-color: #dacbfc;
 }
 
 *{
@@ -41,6 +41,77 @@
 }
 
 .header-nave_text{
+    font-size: 14px;
+    font-weight: 700;
     text-decoration: none;
     color: var(--text-color);
+}
+
+.header-espacio-nave_decorations{
+    color: var(--primary-color);
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    margin: 0 4px;
+    padding: 6px 24px;
+}
+
+.header-entrar-nave_decorations{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    margin: 0 4px;
+    padding: 6px 24px;
+}
+
+/* ----------------------------benefits section----------------------------------- */
+
+.benefit_section{
+
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.benefits-information{
+    display: flex;
+    flex-direction: row;
+}
+
+.benefits_icon{
+    height: 62px;
+    width: 62px;
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+}
+
+.bi{
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.benefits_paragraph{
+    font-size: 18px;
+    color: var(--text-color-secondary);
+}
+
+.banner{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 32px 40px;
+    margin: 0px 24px;
+    display: flex;
+    flex-direction: row;
 }
