@@ -335,12 +335,12 @@ body{
     .header-nave_content_sections{
         display: none
     }
-    .header-hamburger_icon{
+/*     .header-hamburger_icon{
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
-    }
+    } */
     .bi-list{
     color: #2b2b2b;
     font-size: 30px;
