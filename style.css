@@ -255,6 +255,8 @@ body{
 .payment-info{
     display: flex;
     flex-direction: row;
+    background-color: white;
+    border-radius: 16px;
 }
 
 .payments-details{
@@ -264,8 +266,6 @@ body{
     max-width: 500px;
     gap: 21px;
     padding: 40px;
-    background-color: white;
-    border-radius: 16px;
 }
 
 .detail-title{
